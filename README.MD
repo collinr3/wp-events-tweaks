@@ -1,13 +1,13 @@
-#WP-EVENTS Additional functionality
+# WP-EVENTS Additional functionality
 
-##Overview
+## Overview
 This plugin provides additional functionality for the Wordpress WP-Events Plugin.
 
-##Specifically:
-###Booked Tickets:
+## Specifically:
+### Booked Tickets:
 Implements a Code snippet provided by @angelo_nwl in a wp-events Community Post https://wordpress.org/support/topic/improvements-to-help-with-covid-19-regulation/
 
-##Installation:
+## Installation:
 Pre-requisites:
 * Wordpress Administrator role.
 * wp-events 'Events Manager' plugin https://wp-events-plugin.com installed and activated.
