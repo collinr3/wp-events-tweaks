@@ -5,7 +5,7 @@ This plugin provides additional functionality for the Wordpress WP-Events Plugin
 
 ## Specifically:
 ### Booked Tickets:
-Implements a Code snippet provided by @angelo_nwl in a wp-events Community Post https://wordpress.org/support/topic/improvements-to-help-with-covid-19-regulation/
+Implements a Code snippet provided by [@angelo_nwl](https://wordpress.org/support/users/angelo_nwl/) in a wp-events Community Post https://wordpress.org/support/topic/improvements-to-help-with-covid-19-regulation/
 
 ## Installation:
 Pre-requisites:
