@@ -24,14 +24,15 @@ function my_em_custom_booking_form_cols_ticket_types($val, $col, $EM_Booking, $E
 	if( $col == 'book_tickets' ){
 
 		$EM_Tickets_Bookings = $EM_Booking->get_tickets_bookings();
-		$attendee_datas = EM_Attendees_Form::get_booking_attendees($EM_Booking);
+		//$attendee_datas = EM_Attendees_Form::get_booking_attendees($EM_Booking);
 		$attendee_list = "";
 		foreach( $EM_Tickets_Bookings->tickets_bookings as $EM_Ticket_Booking ){
 
 			//Display ticket info
-			if( !empty($attendee_datas[$EM_Ticket_Booking->ticket_id]) ){
-				$val .= "Ticket name: ".$EM_Ticket_Booking->get_ticket()->ticket_name."<br>";
-			}
+			//if( !empty($attendee_datas[$EM_Ticket_Booking->ticket_id]) ){
+				$val .= $EM_Ticket_Booking->get_ticket()->ticket_name.
+				"<nbsp> (".$EM_Ticket_Booking->get_spaces().")"."<br>";
+			//}
 
 
 		}
